@@ -13,7 +13,6 @@ let studentsArray = []
 addStudentButton.addEventListener('click', function(event) {
     let StudentSurnameValue = StudentSurname.value
     let StudentNameValue = StudentName.value
-
        
     let studentObj = {
         StudentSurnameKey: StudentSurnameValue,
